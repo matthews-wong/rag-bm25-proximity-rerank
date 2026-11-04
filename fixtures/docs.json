@@ -1,0 +1,58 @@
+[
+  {
+    "id": "pool-runbook",
+    "text": "Database clients saw the connection pool exhausted after the deploy, and requests queued. so the team looked at dashboards logs traces and several other unrelated signals for a while Escalate to the owning team if it persists. so the team looked at dashboards logs traces and several other unrelated signals for a while so the team looked at dashboards logs traces and several other unrelated signals for a while so the team looked at dashboards logs traces and several other unrelated signals for a while "
+  },
+  {
+    "id": "pool-decoy",
+    "text": "connection noted in the weekly review and again later connection noted in the weekly review and again later connection pool noted in the weekly review and again later pool noted in the weekly review and again later pool exhausted noted in the weekly review and again later exhausted noted in the weekly review and again later exhausted"
+  },
+  {
+    "id": "cert-runbook",
+    "text": "An expired certificate renewal had failed silently, so the certificate expired overnight. so the team looked at dashboards logs traces and several other unrelated signals for a while Escalate to the owning team if it persists. so the team looked at dashboards logs traces and several other unrelated signals for a while so the team looked at dashboards logs traces and several other unrelated signals for a while so the team looked at dashboards logs traces and several other unrelated signals for a while "
+  },
+  {
+    "id": "cert-decoy",
+    "text": "certificate noted in the weekly review and again later certificate noted in the weekly review and again later certificate expired noted in the weekly review and again later expired noted in the weekly review and again later expired renewal noted in the weekly review and again later renewal noted in the weekly review and again later renewal"
+  },
+  {
+    "id": "disk-runbook",
+    "text": "When the disk full alert fired the cleanup job was already running. so the team looked at dashboards logs traces and several other unrelated signals for a while Escalate to the owning team if it persists."
+  },
+  {
+    "id": "disk-decoy",
+    "text": "disk noted in the weekly review and again later disk noted in the weekly review and again later disk full noted in the weekly review and again later full noted in the weekly review and again later full cleanup noted in the weekly review and again later cleanup noted in the weekly review and again later cleanup"
+  },
+  {
+    "id": "dns-runbook",
+    "text": "Services reported a dns lookup timeout while the resolver restarted. so the team looked at dashboards logs traces and several other unrelated signals for a while Escalate to the owning team if it persists."
+  },
+  {
+    "id": "dns-decoy",
+    "text": "dns noted in the weekly review and again later dns noted in the weekly review and again later dns lookup noted in the weekly review and again later lookup noted in the weekly review and again later lookup timeout noted in the weekly review and again later timeout noted in the weekly review and again later timeout"
+  },
+  {
+    "id": "oom-runbook",
+    "text": "The kernel logged out of memory killed process messages for the worker. so the team looked at dashboards logs traces and several other unrelated signals for a while Escalate to the owning team if it persists. so the team looked at dashboards logs traces and several other unrelated signals for a while so the team looked at dashboards logs traces and several other unrelated signals for a while so the team looked at dashboards logs traces and several other unrelated signals for a while "
+  },
+  {
+    "id": "oom-decoy",
+    "text": "out noted in the weekly review and again later out noted in the weekly review and again later out of noted in the weekly review and again later of noted in the weekly review and again later of memory noted in the weekly review and again later memory noted in the weekly review and again later memory killed noted in the weekly review and again later killed noted in the weekly review and again later killed"
+  },
+  {
+    "id": "lock-runbook",
+    "text": "Postgres reported deadlock detected transaction aborted twice an hour. so the team looked at dashboards logs traces and several other unrelated signals for a while Escalate to the owning team if it persists. so the team looked at dashboards logs traces and several other unrelated signals for a while so the team looked at dashboards logs traces and several other unrelated signals for a while so the team looked at dashboards logs traces and several other unrelated signals for a while "
+  },
+  {
+    "id": "lock-decoy",
+    "text": "deadlock noted in the weekly review and again later deadlock noted in the weekly review and again later deadlock detected noted in the weekly review and again later detected noted in the weekly review and again later detected transaction noted in the weekly review and again later transaction noted in the weekly review and again later transaction"
+  },
+  {
+    "id": "rollback-guide",
+    "text": "Roll back with the previous release tag and confirm health checks are green before closing the incident."
+  },
+  {
+    "id": "oncall-handoff",
+    "text": "Hand off on call with a short summary of open incidents, owners and next steps."
+  }
+]

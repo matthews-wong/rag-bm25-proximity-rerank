@@ -1,0 +1,34 @@
+[
+  {
+    "query": "connection pool exhausted",
+    "relevant": "pool-runbook"
+  },
+  {
+    "query": "certificate expired renewal",
+    "relevant": "cert-runbook"
+  },
+  {
+    "query": "disk full cleanup",
+    "relevant": "disk-runbook"
+  },
+  {
+    "query": "dns lookup timeout",
+    "relevant": "dns-runbook"
+  },
+  {
+    "query": "out of memory killed",
+    "relevant": "oom-runbook"
+  },
+  {
+    "query": "deadlock detected transaction",
+    "relevant": "lock-runbook"
+  },
+  {
+    "query": "roll back previous release",
+    "relevant": "rollback-guide"
+  },
+  {
+    "query": "on call handoff summary",
+    "relevant": "oncall-handoff"
+  }
+]
