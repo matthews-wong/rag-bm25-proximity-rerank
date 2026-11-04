@@ -23,6 +23,29 @@ clusters. Pure stdlib Python, no model, no network.
 python3 -m proxrank "connection pool exhausted" --corpus fixtures/docs.json
 ```
 
+## Results
+
+`make eval` runs 8 labelled queries over 14 fixture documents. Six queries have
+a decoy document that repeats every query term far apart; two are easy
+controls. These are fixture numbers, not a benchmark.
+
+| run | recall@3 | MRR |
+| --- | --- | --- |
+| plain BM25 | 1.000 | 0.625 |
+| proximity weight 0.5 | 1.000 | 0.812 |
+| proximity weight 1 | 1.000 | 1.000 |
+| proximity weight 2 | 1.000 | 1.000 |
+
+The fixture is small and built to contain the failure mode, so the gain shows
+that the rerank works as intended, not how much it helps on real text.
+
+## Caveats
+
+- Only the BM25 top `--candidates` (default 20) are reranked.
+- Order does not matter: "pool connection" and "connection pool" both count as
+  a tight cluster.
+- Terms the document lacks are ignored in the span but lower `coverage`.
+
 ## Validate
 
 ```
